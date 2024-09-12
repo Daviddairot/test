@@ -80,6 +80,7 @@ DATABASES = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'https://merry-macaron-c2abee.netlify.app',
+    'http://0.0.0.0:10000',
 ]
 
 
