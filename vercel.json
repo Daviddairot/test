@@ -11,9 +11,11 @@
     }
   ],
   "routes": [
-    { "src": "/static/(.*)", "dest": "/static/$1" },
-    { "src": "/media/(.*)", "dest": "/media/$1" },
-    { "src": "/(.*)", "dest": "/manage.py" },
-    { "dest": "Bproject/wsgi.py"}
+    {
+      "src": "/static/(.*)",
+      "src": "/media/(.*)",
+      "src": "/(.*)",
+      "dest": "Bproject/wsgi.py"
+    }
   ]
 }
