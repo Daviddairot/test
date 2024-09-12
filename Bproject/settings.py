@@ -17,7 +17,7 @@ SECRET_KEY = 'django-insecure-_wp)rq14!z5u03-vkw@*bgboj9^=u*5h*$3m$9u+(0tqvf-mth
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['*', '.vercel.app']
 
 SESSION_COOKIE_SECURE = True
 # Application definition
